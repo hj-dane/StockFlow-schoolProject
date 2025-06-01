@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/resource.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <title>StockFlow | Resources</title>
+        <link rel="icon" type="image/x-icon" href="assets/logo_stockflow.png">    
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    
+                    <a class="navbar-brand mb-1.5" href="#">
+                        <img src="assets/logo_stockflow.png" alt="Logo" style="padding-top: 15%;">
+                    </a>
+
+                    <ul class="nav nav-underline d-flex justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link"  href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="features.html">FEATURES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                RESOURCES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                                <li><a class="dropdown-item" href="resources.html">Resources</a></li>
+                                <li><a class="dropdown-item" href="career.html">Careers</a></li>
+                                <li><a class="dropdown-item" href="blog.html">Blogs</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about_us.html">ABOUT US</a>
+                    </ul>
+                </div>
+
+                <div class="d-flex gap-3">
+                    <a href="sign.html">
+                        <button type="button" class="btn btn-outline-primary" 
+                            style="color: white; border-color: #5d78c8; background-color: transparent;" 
+                            onmouseover="this.style.backgroundColor='#5d78c8'; this.style.color='white';" 
+                            onmouseout="this.style.backgroundColor='transparent'; this.style.color='white';"><b>Login</b></button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="heading">
+            <h2><b>RESOURCES</b></h2>
+            <h5 style="margin-left: 15px; margin-right: 15px; margin-top: 15px; line-height: 150%;">Explore our latest career opportunities, blogs, and articles, all curated to help you stay ahead in your field. Gain insights from industry experts, discover in-depth guides, and access valuable resources to enhance your skills and knowledge. Whether you're looking for career advice, the latest industry trends, or professional growth opportunities, our resource hub provides everything you need to succeed. Stay informed, stay inspired, and take the next step in your journey with our comprehensive collection of expert content.</h5>
+        
+            <main style="margin-bottom: 84px; margin-top: 45px;">
+                <div class="container mt-4">
+                    <div class="row gx-12 justify-content-center" style="padding-top: 3%;"> <!-- Increased gap between columns -->
+                        
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100 text-center shadow-sm">
+                                <img src="assets/career.jpg" class="card-img-top" alt="Careers Image" style="object-fit: cover; height: 200px;">
+                                <div class="card-body d-flex flex-column h-100">
+                                    <h3 class="card-title"><b>Careers</b></h3>
+                                    <hr>
+                                    <p class="card-text text-start" style="padding-bottom: 2%; font-weight: 400;">
+                                        Join our team and build your future with us.
+                                    </p>
+                                    <a href="career.html" class="btn btn-primary mt-auto">Explore More...</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100 text-center shadow-sm">
+                                <img src="assets/blog.jpg" class="card-img-top" alt="Blog" style="object-fit: cover; height: 200px;">
+                                <div class="card-body d-flex flex-column h-100">
+                                    <h3 class="card-title"><b>Blogs</b></h3>
+                                    <hr>
+                                    <p class="card-text text-start" style="padding-bottom: 2%; font-weight: 400;">
+                                        Read insights and updates from our experts.
+                                    </p>
+                                    <a href="blog.html" class="btn btn-primary mt-auto">Read More...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+    </div> 
+
+        <footer class="custom-footer">
+            <div style="display: flex; justify-content: space-between; align-items: center; height: 100%; padding: 20px;">
+                <p style="margin: 20px; line-height: 150%;">©2025 StockFlow Inc. All rights reserved. All other logos and trademarks are the property of their respective owners.<br>
+                All prices displayed on the website and within the product are in PHP.
+                </p>
+                <div class="d-flex gap-3" style="margin-right: 20px;">
+                    <a href="#"><img src="assets/facebook.png" alt="Facebook" class="social-icon"></a>
+                    <a href="#"><img src="assets/twitter.png" alt="Twitter" class="social-icon"></a>
+                    <a href="#"><img src="assets/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+                    <a href="#"><img src="assets/youtube.png" alt="YouTube" class="social-icon"></a>
+                </div>
+            </div>
+        
+        </footer>
+
+        <script src="js/script.js" type="module"></script>
+
+    </body>
+</html>
